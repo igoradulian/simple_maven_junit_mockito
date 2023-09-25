@@ -6,7 +6,7 @@ package org.demo;
 
 
 /**
- * Main benac is initial set up
+ * Main branch is initial set up
  * for sub-demo projects.
  * You can use this branch as
  * skeleton for your own projects
