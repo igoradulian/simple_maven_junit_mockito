@@ -14,12 +14,12 @@ public class ConnectionToDB {
     private static final String USERNAME = "igor";
 
     //Database password
-    private static final String PASSWORD = "Carolina0310!";
+    private static final String PASSWORD = "password";
 
     public static Connection connectToDB() throws ClassNotFoundException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         try {
-            Connection connection = DriverManager.getConnection("jdbc:mysql://192.168.0.20:3306/african_coffee", USERNAME, PASSWORD);
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/african_coffee", USERNAME, PASSWORD);
             return connection;
         } catch (SQLException e) {
             throw new RuntimeException(e);
