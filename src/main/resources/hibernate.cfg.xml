@@ -7,7 +7,7 @@
         <property name="hibernate.hbm2ddl.auto">update</property>
         <!-- Database connection settings -->
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://192.168.0.20:3306/african_coffee</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/african_coffee</property>
         <property name="connection.username">perscholas_user</property>
         <property name="connection.password">perscholas</property>
 
