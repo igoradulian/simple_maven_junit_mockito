@@ -89,6 +89,8 @@ public class DrinkDAOTest {
         Drink drinkActual = drinkDAO.findDrinkByName("Coffee");
         Assertions.assertEquals("Coffee with Milk", drinkActual.getDescription());
 
+        Assertions.assertEquals(drink, drinkActual);
+
     }
 
 
