@@ -29,5 +29,5 @@ Hibernate and JUnit
 2. Demostartes how to use singleton to manage hibernate session.
 3. Demostartes how to One-To-Many relationship example.
 4. Demostartes how to One-To-One relationship example.
-5. Provide basuc JUnit testing examples
+5. Provide basic JUnit testing examples
 
