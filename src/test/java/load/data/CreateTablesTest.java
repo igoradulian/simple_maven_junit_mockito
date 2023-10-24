@@ -1,4 +1,4 @@
-package org.demo.dao;
+package load.data;
 
 import org.demo.util.ConnectionFactory;
 import org.demo.util.CrateTablesRoutine;

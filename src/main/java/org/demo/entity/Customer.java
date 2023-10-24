@@ -22,8 +22,8 @@ public class Customer {
 
     private String email;
 
-    @OneToOne(mappedBy = "drink")
-    private Drink drink;
+    @OneToOne
+    private CoffeeOrder coffeeOrder;
 
     public Customer() {
     }
@@ -58,13 +58,5 @@ public class Customer {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public Drink getDrink() {
-        return drink;
-    }
-
-    public void setDrink(Drink drink) {
-        this.drink = drink;
     }
 }

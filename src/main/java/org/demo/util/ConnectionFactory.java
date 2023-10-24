@@ -15,8 +15,7 @@ import org.hibernate.cfg.Configuration;
  * entites
  */
 public enum ConnectionFactory {
-    GET_SESSION(),
-    CLOSE_SESSION();
+    GET_SESSION();
 
     private SessionFactory factory;
     private Session session;
@@ -38,9 +37,12 @@ public enum ConnectionFactory {
         return session;
     }
 
+    public void commit(){
+        t.commit();
+    }
+
     public void closeSession()
     {
-        t.commit();
         factory.close();
         session.close();
     }

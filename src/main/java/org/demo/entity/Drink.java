@@ -24,10 +24,6 @@ public class Drink {
     @JoinColumn(name = "coffeeOrder_id")
     CoffeeOrder coffeeOrder;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "custormer_id", referencedColumnName = "id")
-    Customer customer;
-
     public Drink() {
     }
     public int getId() {
@@ -70,11 +66,4 @@ public class Drink {
         this.coffeeOrder = coffeeOrder;
     }
 
-    public Customer getCustomer() {
-        return customer;
-    }
-
-    public void setCustomer(Customer customer) {
-        this.customer = customer;
-    }
 }

@@ -39,6 +39,7 @@ public class App
         DrinkDAO drinkDAO = new DrinkDAOImpl();
         drinkDAO.saveDrink(drink);
 
+        connectionFactory.commit();
         connectionFactory.closeSession();
 
     }
