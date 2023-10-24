@@ -1,4 +1,4 @@
-# Simple maven junit mockito
+# Simple maven junit mockito   ![GitHub Image](/junit.png) ![GitHub Image](/maven.png)
 This is simple junit and mockito project created for educational and demo purposes
 
 #Who can use it?
