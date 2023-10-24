@@ -1,4 +1,6 @@
 # Simple maven junit mockito   ![GitHub Image](/junit.png) ![GitHub Image](/maven.png)
+
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=igoradulian&show_icons=true)
 This is simple junit and mockito project created for educational and demo purposes
 
 #Who can use it?
